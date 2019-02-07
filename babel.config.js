@@ -1,13 +1,13 @@
 module.exports = function (api) {
-    api.cache(true);
+	api.cache(true);
 
-    const presets = [
-        ["@babel/env"],
-        ['@babel/preset-react'],
-        ["flow"]
-    ];
+	const presets = [
+		['@babel/env'],
+		['@babel/preset-react'],
+		['flow'],
+	];
 
-    return {
-        presets
-    };
+	return {
+		presets,
+	};
 };
